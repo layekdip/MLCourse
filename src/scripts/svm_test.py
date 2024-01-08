@@ -1,8 +1,7 @@
-import numpy as np
 import matplotlib as plt
 from pylab import *
 from sklearn.preprocessing import MinMaxScaler
-from sklearn import svm, datasets
+from sklearn import svm
 
 
 # Create fake income/age clusters for N people in k clusters
@@ -62,3 +61,4 @@ def plotPredictions(clf):
 
 
 plotPredictions(svc)
+
